@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<head>
+   <link rel="stylesheet" href="../plugins/jquery-ui.css">
+   <style>
+      input[type="text"] {
+         text-transform:uppercase;
+      }
+   </style>
+</head>
+
+         
+                     <div class="form-group">
+                        <label>Nivel:</label>
+                        <select class="form-control select2 nivel_grado requerido" style="width: 100%;" id="nivel">
+                           <option value="" selected>seleccione un nivel academico</option>
+                           <?php
+                           foreach((array)$result as $row){
+                              if($row['idnivel'] == $selector_nivel){
+                                 echo '<option value="'.$row['idnivel'].'" selected>'.$row['nivel'].'</option>';
+                              }else{
+                                 echo '<option value="'.$row['idnivel'].'">'.$row['nivel'].'</option>';
+                              }
+                           }
+                           ?>
+                        </select>
+                     </div>
+                     <div class="form-group">
+                        <label>Grado:</label>
+                        <select class="form-control select2 nivel_grado requerido" style="width: 100%;" id="grado">
+                        </select>
+                     </div>
+                     <div class="form-group">
+                        <label>Aula:</label>
+                        <select class="form-control select2 nivel_grado requerido" style="width: 100%;" id="aula">
+                        </select>
+                        <input type="hidden" id="nombre_aulaSeleccionado" name="aula" value="" />
+                     </div>
+                     
+<script src="../plugins/jquery-1.10.2.js"></script>
+<script src="../plugins/jquery-ui.js"></script>
+
+   function Cancelar() {
+      // Recargo la página
+      location.href="calificaciones.php";
+   }
+</script>
+<?php include("../central/pie2.php"); ?>
+<?php include("../central/pie.php");?>

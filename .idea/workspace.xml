@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7d38ad8e-1aca-4010-aab7-243d2c91c04e" name="Default" comment="" />
+    <ignored path="colegio.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="colegio" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="detalle_inscripcion.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/infoadicional/detalle_inscripcion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="96" column="66" selection-start="5686" selection-end="5686" vertical-scroll-proportion="-23.384615" vertical-offset="1024" max-vertical-offset="2499">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nuevo_voucher.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/voucher_pago/nuevo_voucher.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="131" column="58" selection-start="6769" selection-end="6769" vertical-scroll-proportion="-6.3846154" vertical-offset="2061" max-vertical-offset="3757">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="procesar.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/voucher_pago/procesar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="33" selection-start="1250" selection-end="1250" vertical-scroll-proportion="-11.115385" vertical-offset="306" max-vertical-offset="1224">
+              <folding>
+                <marker date="1554124463617" expanded="true" signature="647:835" placeholder="..." />
+                <marker date="1554124463617" expanded="true" signature="720:822" placeholder="{...}" />
+                <marker date="1554124463617" expanded="true" signature="1160:1223" placeholder="UPDATE nivel..." />
+                <marker date="1554124463617" expanded="true" signature="1266:1435" placeholder="..." />
+                <marker date="1554124463617" expanded="true" signature="1342:1418" placeholder="{...}" />
+                <marker date="1554124463617" expanded="true" signature="1978:2125" placeholder="INSERT INTO ..." />
+                <marker date="1554124463617" expanded="true" signature="2193:2372" placeholder="..." />
+                <marker date="1554124463617" expanded="true" signature="2265:2355" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="119" column="7" selection-start="5149" selection-end="5149" vertical-scroll-proportion="0.6500956" vertical-offset="1683" max-vertical-offset="2890">
+              <folding>
+                <marker date="1555634940079" expanded="true" signature="104:131" placeholder="SELECT * FRO..configuracion..." />
+                <marker date="1555634940079" expanded="true" signature="5301:5481" placeholder="..." />
+                <marker date="1555634940079" expanded="true" signature="5380:5461" placeholder="{...}" />
+                <marker date="1555634940079" expanded="true" signature="5640:5840" placeholder="..." />
+                <marker date="1555634940079" expanded="true" signature="5739:5820" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="voucher_pago.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/voucher_pago/voucher_pago.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="28" selection-start="150" selection-end="150" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="1666">
+              <folding>
+                <marker date="1555632448006" expanded="true" signature="188:522" placeholder="SELECT vp.id..voucherPago..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generarclave.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/infoadicional/generarclave.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="33" selection-start="687" selection-end="687" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="1683">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/configuracion/configuracion.php" />
+        <option value="$PROJECT_DIR$/conexion/conexion.php" />
+        <option value="$PROJECT_DIR$/conexion/principal.php" />
+        <option value="$PROJECT_DIR$/conexion/clsConexion.php" />
+        <option value="$PROJECT_DIR$/configuracion/procesar.php" />
+        <option value="$PROJECT_DIR$/informacion/info.php" />
+        <option value="$PROJECT_DIR$/informacion/informacion.php" />
+        <option value="$PROJECT_DIR$/matricula/busquedaalumno.php" />
+        <option value="$PROJECT_DIR$/inscripciones/selectgrado.php" />
+        <option value="$PROJECT_DIR$/infoadicional/infoadicional.php" />
+        <option value="$PROJECT_DIR$/voucher_pago/busquedaapoderado.php" />
+        <option value="$PROJECT_DIR$/inscripciones/procesar_alumno.php" />
+        <option value="$PROJECT_DIR$/voucher_pago/procesar.php" />
+        <option value="$PROJECT_DIR$/inscripciones/confirma_pago.php" />
+        <option value="$PROJECT_DIR$/matricula/procesar.php" />
+        <option value="$PROJECT_DIR$/voucher_pago/voucher_pago_acciones.php" />
+        <option value="$PROJECT_DIR$/infoadicional/confirma_pago.php" />
+        <option value="$PROJECT_DIR$/voucher_pago/verifica_voucher_pago.php" />
+        <option value="$PROJECT_DIR$/inscripciones/busquedaapoderado.php" />
+        <option value="$PROJECT_DIR$/inscripciones/procesar_apoderado.php" />
+        <option value="$PROJECT_DIR$/pago/busquedaalumno.php" />
+        <option value="$PROJECT_DIR$/pago/busquedaapoderado.php" />
+        <option value="$PROJECT_DIR$/inscripciones/registrar_apoderado.php" />
+        <option value="$PROJECT_DIR$/pago/buscarconcepto.php" />
+        <option value="$PROJECT_DIR$/pago/insertar.php" />
+        <option value="$PROJECT_DIR$/pago/capturar.php" />
+        <option value="$PROJECT_DIR$/calificaciones/calificaciones.php" />
+        <option value="$PROJECT_DIR$/alumno/alumno_acciones.php" />
+        <option value="$PROJECT_DIR$/calificaciones/procesar.php" />
+        <option value="$PROJECT_DIR$/calificaciones/busquedaalumno.php" />
+        <option value="$PROJECT_DIR$/calificaciones/procesarm.php" />
+        <option value="$PROJECT_DIR$/calificaciones/calificaciones_acciones.php" />
+        <option value="$PROJECT_DIR$/inscripciones/registrar_alumno.php" />
+        <option value="$PROJECT_DIR$/inicio/index-SEC.php" />
+        <option value="$PROJECT_DIR$/infoadicional/generarclave.php" />
+        <option value="$PROJECT_DIR$/central/cabecera.php" />
+        <option value="$PROJECT_DIR$/central/sidebar.php" />
+        <option value="$PROJECT_DIR$/inicio/index-ADM.php" />
+        <option value="$PROJECT_DIR$/infoadicional/detalle_inscripcion.php" />
+        <option value="$PROJECT_DIR$/pago/pago.php" />
+        <option value="$PROJECT_DIR$/voucher_pago/voucher_pago.php" />
+        <option value="$PROJECT_DIR$/voucher_pago/nuevo_voucher.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="." />
+      <path value="C:\xampp\htdocs\ZendFramework\library" />
+      <path value="C:\xampp\php\PEAR" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+          <State>
+            <id>Probably bugPHP</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PhpExpressionResultUnusedInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="voucher_pago" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="usuario" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="periodo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pago" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inscripciones" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inicio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="informacion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infoadicional" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configuracion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="central" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calificaciones" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apoderado" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alumno" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="SearchEverywhereHistory" value="&#10;$user" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\colegio\voucher_pago" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\colegio\infoadicional" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="db970fd6-7b67-4777-b875-366f446d8d5c" server_name="Colegio">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7d38ad8e-1aca-4010-aab7-243d2c91c04e" name="Default" comment="" />
+      <created>1553742230161</created>
+      <updated>1553742230161</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25755286" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pago/busquedaalumno.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="49" selection-start="899" selection-end="899" vertical-scroll-proportion="0.640873" vertical-offset="85" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pago/busquedaapoderado.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="713" selection-end="713" vertical-scroll-proportion="0.60714287" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matricula/procesar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="14" selection-start="2217" selection-end="2217" vertical-scroll-proportion="0.45506692" vertical-offset="595" max-vertical-offset="1258">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infoadicional/infoadicional.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="88" selection-start="2923" selection-end="2946" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="1615" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pago/buscarconcepto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="49" selection-start="854" selection-end="854" vertical-scroll-proportion="0.7294776" vertical-offset="0" max-vertical-offset="697">
+          <folding>
+            <marker date="1555231292716" expanded="true" signature="-1:-1" placeholder="SELECT idcon..conceptopago..." />
+            <marker date="1555231292716" expanded="true" signature="-1:-1" placeholder="SELECT idcon..conceptopago..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pago/capturar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="24" selection-start="430" selection-end="430" vertical-scroll-proportion="-3.2692308" vertical-offset="102" max-vertical-offset="748">
+          <folding>
+            <marker date="1555233555683" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1555233555683" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1555233555683" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pago/insertar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="49" selection-start="3311" selection-end="3314" vertical-scroll-proportion="0.6424474" vertical-offset="1160" max-vertical-offset="5134">
+          <folding>
+            <marker date="1555231580991" expanded="true" signature="-1:-1" placeholder="select MAX(n..pago..." />
+            <marker date="1555231580991" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..usuario..." />
+            <marker date="1555231580991" expanded="true" signature="-1:-1" placeholder="select * fro..periodo..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calificaciones/calificaciones_nuevo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="27" selection-start="478" selection-end="478" vertical-scroll-proportion="0.3250478" vertical-offset="0" max-vertical-offset="4607">
+          <folding>
+            <marker date="1512400330000" expanded="true" signature="-1:-1" placeholder="select a.idn..aula..." />
+            <marker date="1512400330000" expanded="true" signature="-1:-1" placeholder="SELECT año F..periodo..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calificaciones/calificaciones - copia.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1598">
+          <folding>
+            <marker date="1528499984000" expanded="true" signature="-1:-1" placeholder="SELECT cal.p..calificaciones..." />
+            <marker date="1528499984000" expanded="true" signature="-1:-1" placeholder="SELECT año F..periodo..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calificaciones/procesar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="45" selection-start="1638" selection-end="1638" vertical-scroll-proportion="0.03250478" vertical-offset="510" max-vertical-offset="1428">
+          <folding>
+            <marker date="1555441273080" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1555441273080" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1555441273080" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1555441273080" expanded="true" signature="-1:-1" placeholder="update calif..." />
+            <marker date="1555441273080" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1555441273080" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1555441273080" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1555441273080" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alumno/alumno_acciones.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="166" column="63" selection-start="8198" selection-end="8198" vertical-scroll-proportion="0.8126195" vertical-offset="2397" max-vertical-offset="7038">
+          <folding>
+            <marker date="1555435429355" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..ubdepartamento..." />
+            <marker date="1555435429355" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..ubprovincia..." />
+            <marker date="1555435429355" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..ubdistrito..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calificaciones/busquedaalumno.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="23" selection-start="415" selection-end="415" vertical-scroll-proportion="0.41231343" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calificaciones/procesarm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="1512" selection-end="1512" vertical-scroll-proportion="0.55258125" vertical-offset="204" max-vertical-offset="1462">
+          <folding>
+            <marker date="1555592378988" expanded="true" signature="-1:-1" placeholder="update calif..." />
+            <marker date="1555592378988" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1555592378988" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1555592378988" expanded="true" signature="-1:-1" placeholder="update calif..." />
+            <marker date="1555592378988" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1555592378988" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1555592378988" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1555592378988" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grado/grado_acciones.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="33" selection-start="1513" selection-end="1513" vertical-scroll-proportion="1.0401529" vertical-offset="51" max-vertical-offset="2108">
+          <folding>
+            <marker date="1512337310000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..nivel..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calificaciones/selectdependientes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="40" selection-start="443" selection-end="443" vertical-scroll-proportion="0.39005736" vertical-offset="0" max-vertical-offset="816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calificaciones/calificaciones_acciones.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="242" column="8" selection-start="12858" selection-end="12858" vertical-scroll-proportion="0.51434034" vertical-offset="3845" max-vertical-offset="5882">
+          <folding>
+            <marker date="1555594414811" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..nivel..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alumno/selectdependientes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="42" selection-start="158" selection-end="158" vertical-scroll-proportion="0.07456979" vertical-offset="80" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inscripciones/busquedaapoderado.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="41" selection-start="195" selection-end="195" vertical-scroll-proportion="0.25373134" vertical-offset="0" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inscripciones/selectdependientes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="35" selection-start="632" selection-end="632" vertical-scroll-proportion="0.58508605" vertical-offset="0" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voucher_pago/voucher_pago_nuevo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="49" selection-start="1799" selection-end="1799" vertical-scroll-proportion="1.0497131" vertical-offset="233" max-vertical-offset="2567">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voucher_pago/voucher_pago_acciones.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="42" selection-start="446" selection-end="446" vertical-scroll-proportion="-0.97514343" vertical-offset="714" max-vertical-offset="2873">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inscripciones/registrar_alumno.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="90" selection-start="6282" selection-end="6311" vertical-scroll-proportion="0.73996174" vertical-offset="1772" max-vertical-offset="10115">
+          <folding>
+            <marker date="1555605581177" expanded="true" signature="-1:-1" placeholder="select count..alumno..." />
+            <marker date="1555605581177" expanded="true" signature="-1:-1" placeholder="SELECT idDep..ubdepartamento..." />
+            <marker date="1555605581177" expanded="true" signature="-1:-1" placeholder="select * fro..nivel..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cerrar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="536">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recaptchalib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.3619404" vertical-offset="1266" max-vertical-offset="1802">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seguridad.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="16" selection-start="22" selection-end="22" vertical-scroll-proportion="0.031716418" vertical-offset="0" max-vertical-offset="536">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apoderado/apoderado.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="23" selection-start="2182" selection-end="2182" vertical-scroll-proportion="0.7151052" vertical-offset="408" max-vertical-offset="1479">
+          <folding>
+            <marker date="1553532300000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..apoderado..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/informacion/informacion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
+          <folding>
+            <marker date="1553961481590" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..informacion..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inscripciones/procesar_apoderado.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="40" selection-start="4412" selection-end="4412" vertical-scroll-proportion="0.55258125" vertical-offset="816" max-vertical-offset="1530">
+          <folding>
+            <marker date="1555080467084" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1555080467084" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inscripciones/procesar_alumno.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="12" selection-start="5221" selection-end="5221" vertical-scroll-proportion="0.36711282" vertical-offset="1134" max-vertical-offset="1802">
+          <folding>
+            <marker date="1554087615376" expanded="true" signature="-1:-1" placeholder="UPDATE alumn..." />
+            <marker date="1554087615376" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1554087615376" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1554087615376" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1554087615376" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1554087615376" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1554087615376" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1554087615376" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/periodo/periodo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="33" selection-start="477" selection-end="477" vertical-scroll-proportion="0.45506692" vertical-offset="0" max-vertical-offset="4641">
+          <folding>
+            <marker date="1511983002000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..periodo..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inscripciones/registrar_apoderado.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="408" column="30" selection-start="18889" selection-end="18889" vertical-scroll-proportion="1.3250479" vertical-offset="6243" max-vertical-offset="7174">
+          <folding>
+            <marker date="1555203047098" expanded="true" signature="-1:-1" placeholder="select count..apoderado..." />
+            <marker date="1555203047098" expanded="true" signature="-1:-1" placeholder="SELECT idDep..ubdepartamento..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infoadicional/visualizarcontraseña.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="562">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infoadicional/procesarcontraseña.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="562">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voucher_pago/verifica_voucher_pago.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="53" selection-start="3435" selection-end="3435" vertical-scroll-proportion="1.5602294" vertical-offset="510" max-vertical-offset="1632">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alumno/alumno.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1615">
+          <folding>
+            <marker date="1553553194000" expanded="true" signature="-1:-1" placeholder="SELECT * fro..alumno..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alumno/alumno_nuevo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="242" column="0" selection-start="11752" selection-end="11752" vertical-scroll-proportion="2.3078394" vertical-offset="2907" max-vertical-offset="6375">
+          <folding>
+            <marker date="1553630234000" expanded="true" signature="-1:-1" placeholder="select count..alumno..." />
+            <marker date="1553630234000" expanded="true" signature="-1:-1" placeholder="SELECT idDep..ubdepartamento..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usuario/usuario_nuevo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="191" column="0" selection-start="9917" selection-end="9917" vertical-scroll-proportion="0.3575526" vertical-offset="3060" max-vertical-offset="5984">
+          <folding>
+            <marker date="1511672846000" expanded="true" signature="-1:-1" placeholder="select count..usuario..." />
+            <marker date="1511672846000" expanded="true" signature="-1:-1" placeholder="SELECT idDep..ubdepartamento..." />
+            <marker date="1511672846000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..cargos..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inicio/index-ADM.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="13" selection-start="529" selection-end="529" vertical-scroll-proportion="0.58508605" vertical-offset="0" max-vertical-offset="2397">
+          <folding>
+            <element signature="e#3157#3180#0" expanded="true" />
+            <element signature="e#4667#4690#0" expanded="true" />
+            <marker date="1555630059510" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..alumno..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inicio/index-SEC.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="21" selection-start="114" selection-end="114" vertical-scroll-proportion="0.13001911" vertical-offset="0" max-vertical-offset="1989">
+          <folding>
+            <marker date="1555614486482" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..alumno..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/central/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="39" selection-start="1462" selection-end="1462" vertical-scroll-proportion="0.6500956" vertical-offset="340" max-vertical-offset="6834">
+          <folding>
+            <marker date="1555629856226" expanded="true" signature="-1:-1" placeholder="SELECT c.des..usuario..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/central/cabecera.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="22" selection-start="3968" selection-end="3968" vertical-scroll-proportion="0.74626863" vertical-offset="790" max-vertical-offset="1326">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calificaciones/calificaciones.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="34" selection-start="124" selection-end="124" vertical-scroll-proportion="0.13001911" vertical-offset="0" max-vertical-offset="1819">
+          <folding>
+            <marker date="1555418920127" expanded="true" signature="-1:-1" placeholder="SELECT ca.id..calificaciones..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infoadicional/detalle_inscripcion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="66" selection-start="5686" selection-end="5686" vertical-scroll-proportion="-23.384615" vertical-offset="1024" max-vertical-offset="2499">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pago/pago.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="57" selection-start="1660" selection-end="1660" vertical-scroll-proportion="0.7801147" vertical-offset="306" max-vertical-offset="1564">
+          <folding>
+            <marker date="1555632160313" expanded="true" signature="-1:-1" placeholder="SELECT pago...pago..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuracion/configuracion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="97" selection-start="1340" selection-end="1361" vertical-scroll-proportion="0.7788845" vertical-offset="306" max-vertical-offset="4777">
+          <folding>
+            <marker date="1553776394947" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..configuracion..." />
+            <marker date="1553776394947" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..ubdepartamento..." />
+            <marker date="1553776394947" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..ubprovincia..." />
+            <marker date="1553776394947" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..ubdistrito..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuracion/procesar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="35" selection-start="2992" selection-end="2992" vertical-scroll-proportion="0.41231343" vertical-offset="867" max-vertical-offset="2142">
+          <folding>
+            <marker date="1553904817591" expanded="true" signature="-1:-1" placeholder="UPDATE confi..." />
+            <marker date="1553904817591" expanded="true" signature="-1:-1" placeholder="UPDATE confi..." />
+            <marker date="1553904817591" expanded="true" signature="-1:-1" placeholder="UPDATE confi..." />
+            <marker date="1553904817591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1553904817591" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infoadicional/generarclave.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="33" selection-start="687" selection-end="687" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="1683">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voucher_pago/voucher_pago.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="28" selection-start="150" selection-end="150" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="1666">
+          <folding>
+            <marker date="1555632448006" expanded="true" signature="188:522" placeholder="SELECT vp.id..voucherPago..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voucher_pago/nuevo_voucher.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="131" column="58" selection-start="6769" selection-end="6769" vertical-scroll-proportion="-6.3846154" vertical-offset="2061" max-vertical-offset="3757">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voucher_pago/procesar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="33" selection-start="1250" selection-end="1250" vertical-scroll-proportion="-11.115385" vertical-offset="306" max-vertical-offset="1224">
+          <folding>
+            <marker date="1554124463617" expanded="true" signature="647:835" placeholder="..." />
+            <marker date="1554124463617" expanded="true" signature="720:822" placeholder="{...}" />
+            <marker date="1554124463617" expanded="true" signature="1160:1223" placeholder="UPDATE nivel..." />
+            <marker date="1554124463617" expanded="true" signature="1266:1435" placeholder="..." />
+            <marker date="1554124463617" expanded="true" signature="1342:1418" placeholder="{...}" />
+            <marker date="1554124463617" expanded="true" signature="1978:2125" placeholder="INSERT INTO ..." />
+            <marker date="1554124463617" expanded="true" signature="2193:2372" placeholder="..." />
+            <marker date="1554124463617" expanded="true" signature="2265:2355" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="7" selection-start="5149" selection-end="5149" vertical-scroll-proportion="0.6500956" vertical-offset="1683" max-vertical-offset="2890">
+          <folding>
+            <marker date="1555634940079" expanded="true" signature="104:131" placeholder="SELECT * FRO..configuracion..." />
+            <marker date="1555634940079" expanded="true" signature="5301:5481" placeholder="..." />
+            <marker date="1555634940079" expanded="true" signature="5380:5461" placeholder="{...}" />
+            <marker date="1555634940079" expanded="true" signature="5640:5840" placeholder="..." />
+            <marker date="1555634940079" expanded="true" signature="5739:5820" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

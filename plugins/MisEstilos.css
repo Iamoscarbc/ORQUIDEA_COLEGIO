@@ -1,0 +1,24 @@
+.modal-header{
+    background-color: #4372C8;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+.centered-modal.in {
+    display: flex !important;
+}
+.centered-modal .modal-dialog {
+    margin: auto;
+}
+
+.modal-content{	
+    -webkit-border-radius: 8px !important;
+    -moz-border-radius: 8px !important;
+    border-radius: 8px !important; 
+}
+.modal-header{
+	-webkit-border-radius: 8px 8px 0px 8px !important;
+    -moz-border-radius: 8px 8px 0px 8px !important;
+    border-radius: 8px 8px 0px 0px !important; 
+}

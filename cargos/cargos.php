@@ -1,0 +1,74 @@
+<?php
+include("../central/cabecera.php");
+include("../central/sidebar.php");
+include_once("../conexion/clsConexion.php");
+$objcliente=new clsConexion;
+$result=$objcliente->consultar("select idtipo, descripcion from tipo");
+?>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<div class="content-wrapper">
+   <section class="content">
+      <div class="box box-info">
+         <div class="box-header with-border">
+            <h3 class="box-title"><b>TIPOS DE USUARIOS</b></h3>
+            <div class="box-tools pull-right">
+               <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+               <button class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+            </div>
+         </div>
+         <div class="box-header">
+            <a href="cargos_nuevo.php" class="btn btn-primary btn-flat"><i class="fa fa-level-up"></i> Registrar Nuevo Cargo </a>
+         </div>
+         <div class="box-body">
+            <table id="example1" class="table table-striped table-bordered table-hover">
+               <thead>
+                  <tr class="tableheader">
+                     <th>Descripcion</th>
+                     <th>Editar</th>
+                     <th>Eliminar</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <?php foreach((array)$result as $row){ ?>
+                  <tr>
+                     <td><?php echo utf8_encode($row['descripcion']); ?></td>
+                     <td><?php echo "<a href='cargos_acciones.php?idtipo=".$row['idtipo']."' class='btn btn-default btn-sm btn-icon icon-left'>"?><i class="fa fa-pencil-square-o"></i> Editar</td>
+                     <td><?php echo "<a href='procesar.php?idtipo=".$row['idtipo']."&Eliminar=Eliminar' class='btn btn-danger btn-sm btn-icon icon-left'>"?><i class="fa fa-trash-o"></i> Eliminar</td>
+                  </tr>
+                  <?php
+                  };
+                  ?>
+               </tbody>
+            </table>
+            <!-- /.box-body -->
+         </div>
+      </div>
+   </section>
+</div>
+<script src="../plugins/plugins/jQuery/jQuery-2.2.3.min.js"></script>
+<!-- Bootstrap 3.3.5 -->
+<script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
+<!-- DataTables -->
+<script src="../plugins/plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="../plugins/plugins/datatables/dataTables.bootstrap.min.js"></script>
+<script src="../plugins/plugins/datatables/extensions/Responsive/js/dataTables.responsive.min.js"></script>
+<!-- SlimScroll -->
+<script src="../plugins/plugins/slimScroll/jquery.slimscroll.min.js"></script>
+<!-- FastClick -->
+<script src="../plugins/plugins/fastclick/fastclick.min.js"></script>
+<!-- AdminLTE App -->
+<script src="../plugins/dist/js/app.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="../plugins/dist/js/demo.js"></script>
+<!-- page script -->
+<script>
+$(function () {
+   $('#example1').DataTable({
+      responsive: true,
+      autoWidth: false
+   });
+});
+</script>
+<?php include("../central/pie.php");?>
