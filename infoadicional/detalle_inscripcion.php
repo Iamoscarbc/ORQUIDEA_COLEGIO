@@ -6,26 +6,12 @@ $obj=new clsConexion;
 $id=trim($obj->real_escape_string(htmlentities(strip_tags($_GET['idalu'],ENT_QUOTES))));
 
 $data=$obj->consultar("
-    SELECT
-	ap.idapo AS idapo,
-    CONCAT(ap.nombre_apo, ' ', ap.apepat_apo, ' ', ap.apemat_apo) AS apoderado,
-    CONCAT(al.nombres, ' ', al.apepat_alu, ' ', al.apemat_alu) AS alumno,
-    al.idalu AS idalu,
-    al.documentos,
-    g.descripcion
-    FROM apoderado ap
-    INNER JOIN alumno al
-    INNER JOIN grado g
-    ON al.idapo=ap.idapo
-    ON g.idgrado=al.idgrado
-    WHERE al.inscripcion='1'
-    AND al.idalu='".$obj->real_escape_string($id)."'
-    GROUP BY ap.idapo
+    SELECT ap.idapo AS idapo, CONCAT(ap.nombre_apo, ' ', ap.apepat_apo, ' ', ap.apemat_apo) AS apoderado, CONCAT(al.nombres, ' ', al.apepat_alu, ' ', al.apemat_alu) AS alumno, al.idalu AS idalu, al.dni, g.descripcion FROM apoderado ap INNER JOIN alumno al ON al.idapo=ap.idapo INNER JOIN grado g INNER JOIN matricula m ON g.idgrado = m.idgrado WHERE al.idalu=$id GROUP BY ap.idapo
 ");
 foreach($data as $row){
     $apoderado=$row['apoderado'];
     $alumno=$row['alumno'];
-    $documentos=$row['documentos'];
+    $documentos=$row['dni'];
     $grado=$row['descripcion'];
     $idapoderado=$row['idapo'];
 }
@@ -77,8 +63,8 @@ $ruta = "archivos/";
                                     </thead>
                                     <tbody>
                                     <td><?php echo $documentos; ?></td>
-                                    <td><?php echo "<a href='../inscripciones/archivos/".$row['documentos']."' class='btn btn-default btn-sm btn-icon icon-left'>"?><i class="fa fa-pencil-square-o"></i> Verificar Documento</td> <!--Crear Script para abrir docuemento pdf en nueva pestaña del navegador-->
-                                    <td><?php echo "<a href='../inscripciones/archivos/".$row['documentos']."' download='".$documentos."' class='btn btn-default btn-sm btn-icon icon-left'>"?><i class="fa fa-pencil-square-o"></i> Descargar Documento</td>
+                                    <td><?php echo "<a href='../inscripciones/archivos/".$row['dni']."' class='btn btn-default btn-sm btn-icon icon-left'>"?><i class="fa fa-pencil-square-o"></i> Verificar Documento</td> <!--Crear Script para abrir docuemento pdf en nueva pestaña del navegador-->
+                                    <td><?php echo "<a href='../inscripciones/archivos/".$row['dni']."' download='".$documentos."' class='btn btn-default btn-sm btn-icon icon-left'>"?><i class="fa fa-pencil-square-o"></i> Descargar Documento</td>
                                     </tbody>
                                 </table>
                             </div>

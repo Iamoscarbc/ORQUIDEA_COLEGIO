@@ -11,7 +11,8 @@ foreach($data as $row){
    $codigo= $row['codigo'];
    $nombres= $row['nombre_apo'];
    $apepat= $row['apepat_apo'];
-   $apemat= $row['apemat_apo'];   
+   $apemat= $row['apemat_apo'];  
+   $clave = $row['clave'];
    $dni=$row['dni'];
    $selector_departamento=$row["departamento"];
    $selector_provincia=$row["provincia"];
@@ -203,6 +204,15 @@ foreach($data as $row){
                         </div>
                         <div class="text-center">
                            <label id="resultado_validarEmail" class="hidden"></label>
+                     </div>
+                     <div class="form-group">
+                        <label>Clave:</label>
+                        <div class="input-group">
+                           <div class="input-group-addon">
+                              <i class="fa fa-unlock"></i>
+                           </div>
+                           <input type="password" autocomplete="off" class="form-control requerido habilitado" name="clave" placeholder="ingrese una clave segura min.de 6 digitos" value="<?php echo $clave;?>" disabled>
+                        </div>
                      </div>
                   </div>
                </div>

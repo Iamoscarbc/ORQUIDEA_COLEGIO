@@ -103,7 +103,7 @@ foreach($matricula as $row){
                            <div class="input-group-addon">
                               <i class="fa fa-user"></i>
                            </div>
-                           <input type="text" id="alumno" class="form-control" placeholder="busqueda por apellidos"/>
+                           <input type="text" id="alumno" class="form-control" placeholder="busqueda por nombres"/>
                            <input type="hidden" name="alumno" id="id_alumno"/>
                         </div>
                      </div>

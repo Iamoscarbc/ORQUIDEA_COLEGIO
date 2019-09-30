@@ -97,10 +97,21 @@
          $clave= trim($obj->real_escape_string(htmlentities(strip_tags($_POST['clave'],ENT_QUOTES))));
          $clavemd5 = md5($clave);
          $resultapo=$obj->consultar("SELECT * FROM usuario WHERE codigo='".$obj->real_escape_string($codigo)."' and clave='".$obj->real_escape_string($clavemd5)."'");
-         foreach((array)$resultapo as $row){
-            $valor=$row['codigo'];
-            $estado=$row["estado"];
-            $cargo=$row["idcargo"];
+         if(count($resultapo) == 0){
+            $resultapo = $obj->consultar("SELECT * FROM apoderado WHERE codigo='".$obj->real_escape_string($codigo)."' and clave='".$obj->real_escape_string($clavemd5)."'");
+            foreach((array)$resultapo as $row){
+               $id=$row["idapo"];
+               $valor=$row['codigo'];
+               $estado=$row["estado"];
+               $cargo=$row["idcargo"];
+            }
+         }else{
+            foreach((array)$resultapo as $row){               
+               $id=$row["idusu"];
+               $valor=$row['codigo'];
+               $estado=$row["estado"];
+               $cargo=$row["idcargo"];
+            }
          }
          //si el codigo no existe en la bd manda el mensaje de error es como decir $row['codigo']=nulo
          if(isset($valor)=='') {
@@ -121,34 +132,39 @@
          } else if($cargo=='0') {
             // esta sesion de autentificado lo pongo 1 para seguridad i despues haga la comprobacion si no es igual a 1 se redireccion al inicio
             $_SESSION["autentificado"]=1;
+            $_SESSION["id"]=$id;
             $_SESSION["codigo"]=$codigo;
             $_SESSION["clave"]=$clavemd5;
             $_SESSION["cargo"]=$cargo;
             header('location:inicio/index-ADM.php');
          } else if($cargo=='1') {
             $_SESSION["autentificado"]=1;
+            $_SESSION["id"]=$id;
             $_SESSION["codigo"]=$codigo;
             $_SESSION["clave"]=$clavemd5;
             $_SESSION["cargo"]=$cargo;
             header('location:inicio/index.php');
          } else if($cargo=='2') {
             $_SESSION["autentificado"]=1;
+            $_SESSION["id"]=$id;
             $_SESSION["codigo"]=$codigo;
             $_SESSION["clave"]=$clavemd5;
             $_SESSION["cargo"]=$cargo;
             header('location:inicio/index-SEC.php');
          } else if($cargo=='3') {
             $_SESSION["autentificado"]=1;
+            $_SESSION["id"]=$id;
             $_SESSION["codigo"]=$codigo;
             $_SESSION["clave"]=$clavemd5;
             $_SESSION["cargo"]=$cargo;
             header('location:inicio/index.php');
          } else if($cargo=='4') {
             $_SESSION["autentificado"]=1;
+            $_SESSION["id"]=$id;
             $_SESSION["codigo"]=$codigo;
             $_SESSION["clave"]=$clavemd5;
             $_SESSION["cargo"]=$cargo;
-            header('location:apoderado/apoderado.php');
+            header('location:inicio/index-APO.php');
          }
       }
    }else{
@@ -162,7 +178,7 @@
          } else if($_SESSION["cargo"]=='3') {
             header('location:inicio/index.php');
          } else if($_SESSION["cargo"]=='4') {
-            header('location:apoderado/apoderado.php');
+            header('location:inicio/index-APO.php');
          }
       }
    }

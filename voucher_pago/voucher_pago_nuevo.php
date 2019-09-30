@@ -27,7 +27,7 @@ $fecha_matricula= date("Y-m-d");
          <!-- /.box-header -->
          <div class="box-body">
          <label id="aviso"></label>
-            <form action="procesar.php" method="post">
+            <form action="procesar.php" enctype="multipart/form-data" method="post">
                <div class="row">
                   <div class="col-md-6">
                      <div class="form-group">
@@ -59,7 +59,7 @@ $fecha_matricula= date("Y-m-d");
                            <div class="input-group-addon">
                               <i class="fa fa-camera"></i>
                            </div>
-                           <input type="file" name="imagen_voucher" class="form-control habilitado" id="field-file" >
+                           <input type="file" name="imagen_voucher" class="form-control habilitado" id="imagen_voucher" >
                         </div>
                         <p class="help-block">Archivos Permitidos(.jpg y.png)</p>
                      </div>                     

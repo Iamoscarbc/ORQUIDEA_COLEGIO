@@ -4,6 +4,9 @@
    include_once("../conexion/clsConexion.php");
    $obj=new clsConexion;
    $result=$obj->consultar("SELECT t.descripcion AS descripcion, u.idcargo AS cargo FROM usuario u INNER JOIN tipo t ON u.idcargo = t.idTipo WHERE codigo='$codigo'");
+   if(count($result) == 0){
+      $result = $obj->consultar("SELECT t.descripcion AS descripcion, a.idcargo AS cargo FROM apoderado a INNER JOIN tipo t ON a.idcargo = t.idTipo WHERE codigo='$codigo'");
+   }
    foreach((array)$result as $row){
       $c=$row["descripcion"];
       $cargo=$row["cargo"];
@@ -131,9 +134,6 @@
                </li>
                <li>
                   <a href="../usuario/usuario.php"><i class="fa fa-user"></i>Todos los usuarios</a>
-               </li>
-               <li>
-                  <a href="../usuario/personal.php"><i class="fa fa-user"></i>Solo Personal</a>
                </li>
             </ul>
          </li>
@@ -377,7 +377,7 @@
                </a>
                <ul class="treeview-menu">
                   <li>
-                     <a href="../Calificaciones/calificaciones.php"><i class="fa fa-circle-o"></i> Calicaciones</a>
+                     <a href="../apoderado/calificaciones_alumno.php"><i class="fa fa-circle-o"></i> Calicaciones</a>
                   </li>
                </ul>
             </li>
@@ -392,7 +392,7 @@
                </a>
                <ul class="treeview-menu">               
                   <li>
-                     <a href="../voucher_pago/voucher_pago.php"><i class="fa fa-circle-o"></i>Voucher Pago</a>
+                     <a href="../apoderado/pagos_apoderado.php"><i class="fa fa-circle-o"></i>Voucher Pago</a>
                   </li>
                </ul>
          </li>

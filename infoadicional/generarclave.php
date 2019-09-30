@@ -11,10 +11,10 @@ $result=$objcliente->consultar("
 	    CONCAT(ap.nombre_apo, ' ',ap.apepat_apo, ' ',ap.apemat_apo) AS apoderado,
         al.idalu AS idalu,
         CONCAT(al.nombres, ' ',al.apepat_alu, ' ',al.apemat_alu) AS alumno,
-        al.idacceso AS idacceso
+        al.idalu AS idacceso
     FROM apoderado ap
     INNER JOIN alumno al ON al.idapo = ap.idapo
-    WHERE ap.idapo='".$obj->real_escape_string($id)."'");
+    WHERE ap.idapo=$id");
 ?>
     <div class="content-wrapper">
         <section class="content">

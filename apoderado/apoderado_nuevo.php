@@ -176,6 +176,15 @@ foreach((array)$result as $row){
                         <div class="text-center" >
                            <label id="resultado_validarEmail" class="hidden"></label>
                         </div>
+                     </div>                 
+                     <div class=" clave form-group">
+                        <label>Clave:</label>
+                        <div class="input-group">
+                           <div class="input-group-addon">
+                              <i class="fa fa-unlock"></i>
+                           </div>
+                           <input type="password" autocomplete="off" class="form-control requerido" name="clave" placeholder="ingrese una clave segura min.de 6 digitos" value="">
+                        </div>
                      </div>
                   </div>
                </div>

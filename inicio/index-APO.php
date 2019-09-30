@@ -30,22 +30,10 @@ if($_SESSION["cargo"]=='4'){
             </div>
          </div>
          <div class="col-lg-3 col-xs-6">
-            <div class="small-box bg-orange">
-               <div class="inner">
-                  <h3>&nbsp;</h3>
-                  <p>Matricula</p>
-               </div>
-               <div class="icon">
-                  <i class="fa fa-pencil-square-o"></i>
-               </div>
-               <a href="../matricula/matricula.php" class="small-box-footer">Ir <i class="fa fa-arrow-circle-right"></i></a>
-            </div>
-         </div>
-         <div class="col-lg-3 col-xs-6">
             <div class="small-box bg-green">
                <div class="inner">
                   <h3>&nbsp;</h3>
-                  <p>Contabilidad</p>
+                  <p>Pagos</p>
                </div>
                <div class="icon">
                   <i class="fa fa-money"></i>
@@ -63,42 +51,6 @@ if($_SESSION["cargo"]=='4'){
                   <i class="fa fa-users"></i>
                </div>
                <a href="../usuario/usuario.php" class="small-box-footer">Ir <i class="fa fa-arrow-circle-right"></i></a>
-            </div>
-         </div>
-         <div class="col-lg-3 col-xs-6">            
-            <div class="small-box bg-green">
-               <div class="inner">
-                  <h3>&nbsp;</h3>
-                  <p>Aulas</p>
-               </div>
-               <div class="icon">
-                  <i class="fa fa-university"></i>
-               </div>
-               <a href="../aula_grado/aula_grado.php" class="small-box-footer">Ir <i class="fa fa-arrow-circle-right"></i></a>
-            </div>
-         </div>
-         <div class="col-lg-3 col-xs-6">            
-            <div class="small-box bg-aqua">
-               <div class="inner">
-                  <h3>&nbsp;<sup style="font-size: 20px"></sup></h3>
-                  <p>Periodo Academico</p>
-               </div>
-               <div class="icon">
-                  <i class="fa fa-calendar"></i>
-               </div>
-               <a href="../periodo/periodo.php" class="small-box-footer">Ir <i class="fa fa-arrow-circle-right"></i></a>
-            </div>
-         </div>
-         <div class="col-lg-3 col-xs-6">            
-            <div class="small-box bg-yellow">
-               <div class="inner">
-                  <h3>&nbsp;</h3>
-                  <p>Configuracion</p>
-               </div>
-               <div class="icon">
-                  <i class="fa fa-cogs"></i>
-               </div>
-               <a href="../configuracion/configuracion.php" class="small-box-footer">Ir <i class="fa fa-arrow-circle-right"></i></a>
             </div>
          </div>
          <div class="col-lg-3 col-xs-6">            

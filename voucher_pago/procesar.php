@@ -43,25 +43,43 @@
 		}
 
 		if($proceso=="Registrar"){
-            $formatosPermitidos=array(".jpg",".jpeg",".png",".gif");
+			$nombre_img = $_FILES['imagen_voucher']['name'];
+			$tipo = $_FILES['imagen_voucher']['type'];
+			$tamano = $_FILES['imagen_voucher']['size'];
+			if ($nombre_img == !NULL){
+				//indicamos los formatos que permitimos subir a nuestro servidor
+				if (($_FILES["imagen_voucher"]["type"] == "image/gif")
+				|| ($_FILES["imagen_voucher"]["type"] == "image/jpeg")
+				|| ($_FILES["imagen_voucher"]["type"] == "image/jpg")
+				|| ($_FILES["imagen_voucher"]["type"] == "image/png")){
+					// Ruta donde se guardarán las imágenes que subamos
+					$directorio = $_SERVER['DOCUMENT_ROOT'].'/voucher_pago/voucher/';
+					// Muevo la imagen desde el directorio temporal a nuestra ruta indicada anteriormente
+					move_uploaded_file($_FILES['imagen_voucher']['tmp_name'],$directorio.$nombre_img);
+				}
+				else{
+					//si no cumple con el formato
+					echo "No se puede subir una imagen con ese formato ";
+				}
+			}else{
+				//si existe la variable pero se pasa del tamaño permitido
+				if($nombre_img == !NULL) echo "La imagen es demasiado grande ";
+			}
 			$apoderado=trim($obj->real_escape_string(htmlentities(strip_tags($_POST['apoderado'],ENT_QUOTES))));
 			$numero_voucher=trim($obj->real_escape_string(htmlentities(strip_tags($_POST['numero_voucher'],ENT_QUOTES))));
-			$imagen_voucher=$_POST["imagen_voucher"];
+			// $imagen_voucher=$_POST["imagen_voucher"];
 			$fecha=trim($obj->real_escape_string(htmlentities(strip_tags($_POST['fecha'],ENT_QUOTES))));
 
-            $destino_voucher="voucher/".$imagen_voucher;
-
-            $sql="INSERT INTO voucherPago (idapoderado, numero_voucher, imagen_voucher, fecha) VALUES ('$apoderado', '$numero_voucher', '$destino_voucher', '$fecha')";
+			$sql="INSERT INTO voucherPago (idapoderado, numero_voucher, imagen_voucher, fecha) VALUES ('$apoderado', '$numero_voucher', 'voucher/$nombre_img', '$fecha')";
+			// var_dump($sql);exit;
             $obj->ejecutar($sql);
-
-            }
-
 			echo"<script>
 					alertify.alert('VOUCHER DE PAGO', 'Registro Grabado!', function(){
 					alertify.success('OK');
 					self.location='voucher_pago.php';
 					});
-				  </script>";
+				</script>";
+            }
 	}
 ?>
 </body>

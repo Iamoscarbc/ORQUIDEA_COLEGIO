@@ -146,7 +146,7 @@ else{
    } else if($_SESSION["cargo"]=='3') {
       header('location: index.php');
    } else if($_SESSION["cargo"]=='4') {
-      header('location: ../apoderado/apoderado.php');
+      header('location: index-APO.php');
    }
 }
 include("../central/pie2.php");

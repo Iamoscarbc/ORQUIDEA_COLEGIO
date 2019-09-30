@@ -178,12 +178,12 @@ foreach($data as $row){
                         <label>Cargo Usuario:</label>
                         <select class="form-control select2 requerido habilitado " style="width: 100%;" name="cargo" disabled>
                            <?php
-                           $result=$obj->consultar("select * from cargos");
+                           $result=$obj->consultar("select * from tipo");
                            foreach((array)$result as $row){
-                              if($row['idcargo']==$selector_cargo){
-                                 echo '<option value="'.$row['idcargo'].'" selected>'.$row['descripcion'].'</option>';
+                              if($row['idTipo']==$selector_cargo){
+                                 echo '<option value="'.$row['idTipo'].'" selected>'.$row['descripcion'].'</option>';
                               }else{
-                                 echo '<option value="'.$row['idcargo'].'">'.$row['descripcion'].'</option>';
+                                 echo '<option value="'.$row['idTipo'].'">'.$row['descripcion'].'</option>';
                               }
                            }
                            ?>

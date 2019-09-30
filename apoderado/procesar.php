@@ -15,6 +15,7 @@
    if($proceso=="Modificar"){
       $id=trim($obj->real_escape_string(strip_tags($_POST['id'],ENT_QUOTES)));
       $codigo=trim($obj->real_escape_string(strip_tags($_POST['codigo'],ENT_QUOTES)));
+      $clave=md5(trim($obj->real_escape_string(strip_tags($_POST['clave'],ENT_QUOTES))));
       $nombres=strtoupper(trim($obj->real_escape_string(strip_tags($_POST['nombres_apo'],ENT_QUOTES))));
       $apepat=strtoupper(trim($obj->real_escape_string(strip_tags($_POST['apepat_apo'],ENT_QUOTES))));
       $apemat=strtoupper(trim($obj->real_escape_string(strip_tags($_POST['apemat_apo'],ENT_QUOTES))));
@@ -29,7 +30,7 @@
       $email=trim($obj->real_escape_string(strip_tags($_POST['email'],ENT_QUOTES)));
       $ocupacion=strtoupper(trim($obj->real_escape_string(strip_tags($_POST['ocupacion'],ENT_QUOTES))));
 
-      $sql="UPDATE apoderado SET codigo='$codigo', nombre_apo='$nombres', apepat_apo='$apepat', apemat_apo='$apemat', dni='$dni', fec_nacimiento='$fec_nac', genero='$genero', departamento='$departamento', provincia='$provincia', distrito='$distrito', direccion='$direccion', telefono ='$tel', email='$email', ocupacion='$ocupacion' WHERE idapo=$id";
+      $sql="UPDATE apoderado SET codigo='$codigo', idcargo=4,clave='$clave', nombre_apo='$nombres', apepat_apo='$apepat', apemat_apo='$apemat', dni='$dni', fec_nacimiento='$fec_nac', genero='$genero', departamento='$departamento', provincia='$provincia', distrito='$distrito', direccion='$direccion', telefono ='$tel', email='$email', ocupacion='$ocupacion' WHERE idapo=$id";
 
       $con =$obj->con;
       //  $obj->ejecutar($sql);
@@ -55,6 +56,7 @@
 
    if($proceso=="Registrar"){
       $codigo=trim($obj->real_escape_string(strip_tags($_POST['codigo'],ENT_QUOTES)));
+      $clave=md5(trim($obj->real_escape_string(strip_tags($_POST['clave'],ENT_QUOTES))));
       $nombres=strtoupper(trim($obj->real_escape_string(strip_tags($_POST['nombres_apo'],ENT_QUOTES))));
       $apepat=strtoupper(trim($obj->real_escape_string(strip_tags($_POST['apepat_apo'],ENT_QUOTES))));
       $apemat=strtoupper(trim($obj->real_escape_string(strip_tags($_POST['apemat_apo'],ENT_QUOTES))));
@@ -69,8 +71,8 @@
       $email=trim($obj->real_escape_string(strip_tags($_POST['email'],ENT_QUOTES)));
       $ocupacion=strtoupper(trim($obj->real_escape_string(strip_tags($_POST['ocupacion'],ENT_QUOTES))));
 
-      $sql="INSERT INTO apoderado (codigo, nombre_apo, apepat_apo, apemat_apo, dni, genero, departamento, provincia, distrito, direccion, fec_nacimiento, telefono, email, ocupacion) VALUES ('$codigo', '$nombres', '$apepat', '$apemat', '$dni', '$genero', '$departamento', '$provincia', '$distrito', '$direccion', '$fec_nac','$tel','$email','$ocupacion')";
-
+      $sql="INSERT INTO apoderado (codigo, clave,idcargo, nombre_apo, apepat_apo, apemat_apo, dni, genero, departamento, provincia, distrito, direccion, fec_nacimiento, telefono, email, ocupacion) VALUES ('$codigo','$clave', 4, '$nombres', '$apepat', '$apemat', '$dni', '$genero', '$departamento', '$provincia', '$distrito', '$direccion', '$fec_nac','$tel','$email','$ocupacion')";
+      // var_dump($sql);exit;
       $obj->ejecutar($sql);
          echo"<script>
           alertify.alert('APODERADO', 'Se ingreso nuevo apoderado satisfacoriamente!', function(){

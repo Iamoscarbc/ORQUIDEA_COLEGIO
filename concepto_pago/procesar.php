@@ -65,14 +65,26 @@
          } else {
             $sql="UPDATE conceptoPago SET idnivel='$idnivel', concepto='$concepto', monto='$monto', fec_inicio='$fec_inicio', fec_vencimiento='$fec_vencimiento', mora='$mora', descuento='$descuento' WHERE idconcepto=$id";
          }
+         $con =$obj->con;
+			//  $obj->ejecutar($sql);
+			
+			mysqli_query($con,$sql);
 
-         $obj->ejecutar($sql);
+			if(mysqli_affected_rows($con)<=0) {
+				echo"<script>
+				alertify.alert('CONCEPTO DE PAGO', 'No ha realizado ningún cambio', function(){
+					alertify.success('OK');
+					self.location='concepto_pago_acciones.php?idconcepto=$id';
+					});
+				</script>";
+			}else{
             echo"<script>
-             alertify.alert('CONCEPTO DE PAGO', 'Registro Actualizado!', function(){
-            alertify.success('Ok');
-            self.location='concepto_pago.php';
-            });
-         </script>";
+               alertify.alert('CONCEPTO DE PAGO', 'Registro Actualizado!', function(){
+               alertify.success('Ok');
+               self.location='concepto_pago.php';
+               });
+            </script>";
+         }
       }
 
       if($proceso=="Registrar"){

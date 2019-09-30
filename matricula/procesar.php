@@ -21,8 +21,9 @@
       $aula=trim($obj->real_escape_string(strip_tags($_POST['seccion'],ENT_QUOTES)));
       $observacion=trim($obj->real_escape_string(strip_tags($_POST['observacion'],ENT_QUOTES)));
 
+      $query="SELECT idalumno From matricula WHERE idalumno=$alumno AND periodo='$periodo'";
 
-      $result=$obj->consultar("SELECT idalumno From matricula WHERE idalumno='$alumno' AND periodo='$periodo'");
+      $result=$obj->consultar($query);
       foreach ((array)$result as $row) {
          $verficarMatricula=$row['idalumno'];
       }
@@ -48,15 +49,16 @@
          });
          </script>";
       } else {
-         $matricular="INSERT INTO matricula (periodo, num_matricula, fec_matricula, usuario, idalumno, idgrado, idaula, observacion) VALUES ('$periodo','$numero_matricula','$fecha_matricula','$usuario', '$alumno','$grado','$aula','$observacion')";
+         $matricular="INSERT INTO matricula (periodo, num_matricula, fec_matricula, usuario, idalumno, idgrado, idaula, observacion) 
+         VALUES ('$periodo','$numero_matricula','$fecha_matricula','$usuario', $alumno,$grado,$aula,'$observacion')";
 
          $actualizarVacantes ="UPDATE aula SET vacantes=vacantes-1 where idaula='$aula'";
 
-         $actualizaInscripcion = "UPDATE alumno SET inscripcion='0' where idalu='$alumno'";
+         // $actualizaInscripcion = "UPDATE alumno SET inscripcion='0' where idalu='$alumno'";
 
          $obj->ejecutar($matricular);
          $obj->ejecutar($actualizarVacantes);
-         $obj->ejecutar($actualizaInscripcion);
+         // $obj->ejecutar($actualizaInscripcion);
          echo"<script>
          alertify.alert('MATRICULA', 'La matricula se realizo correctamente', function(){
          alertify.success('Ok');
