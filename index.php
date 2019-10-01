@@ -101,6 +101,7 @@
             $resultapo = $obj->consultar("SELECT * FROM apoderado WHERE codigo='".$obj->real_escape_string($codigo)."' and clave='".$obj->real_escape_string($clavemd5)."'");
             foreach((array)$resultapo as $row){
                $id=$row["idapo"];
+               $nombre = $row["nombre_apo"]." ".$row["apepat_apo"]." ".$row["apemat_apo"];
                $valor=$row['codigo'];
                $estado=$row["estado"];
                $cargo=$row["idcargo"];
@@ -164,6 +165,7 @@
             $_SESSION["codigo"]=$codigo;
             $_SESSION["clave"]=$clavemd5;
             $_SESSION["cargo"]=$cargo;
+            $_SESSION["nombres"] = $nombre;
             header('location:inicio/index-APO.php');
          }
       }

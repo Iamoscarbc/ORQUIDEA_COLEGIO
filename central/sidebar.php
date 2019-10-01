@@ -367,6 +367,20 @@
 
 
          <?php if($cargo=='4') { //apoderado?>
+            <li class="treeview">
+               <a href="#">
+                  <i class="fa fa-users"></i>
+                  <span>Administracion de Usuarios</span>
+                  <span class="pull-right-container">
+                     <i class="fa fa-angle-left pull-right"></i>
+                  </span>
+               </a>
+               <ul class="treeview-menu">
+                  <li>
+                     <a href="../apoderado/usuario.php"><i class="fa fa-user"></i>Mi Usuario</a>
+                  </li>
+               </ul>
+            </li>
             <li>
                <a href="#">
                   <i class="fa fa-navicon"></i>
@@ -384,6 +398,21 @@
 
             <li>
                <a href="#">
+                  <i class="fa fa-graduation-cap"></i>
+                  <span>Estudiante</span>
+                  <span class="pull-right-container">
+                     <i class="fa fa-angle-left pull-right"></i>
+                  </span>
+               </a>
+               <ul class="treeview-menu">
+                  <li>
+                     <a href="../apoderado/apoderado_alumno.php"><i class="fa fa-address-book-o"></i> <span>Estudiante</span></a>
+                  </li>               
+               </ul>
+            </li>
+
+            <li>
+               <a href="#">
                   <i class="fa fa-cog fa-spin fa-lg fa-fw"></i>
                   <span>Administracion Financiera</span>
                   <span class="pull-right-container">
@@ -392,7 +421,7 @@
                </a>
                <ul class="treeview-menu">               
                   <li>
-                     <a href="../apoderado/pagos_apoderado.php"><i class="fa fa-circle-o"></i>Voucher Pago</a>
+                     <a href="../apoderado/pagos_apoderado.php"><i class="fa fa-circle-o"></i>Historial de Pagos</a>
                   </li>
                </ul>
          </li>

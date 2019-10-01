@@ -36,8 +36,13 @@ $fecha_matricula= date("Y-m-d");
                            <div class="input-group-addon">
                               <i class="fa fa-users"></i>
                            </div>
-                           <input type="text" id="apoderado" class="form-control requerido " placeholder="Por ejemplo, Ever Lazaro"/>
-                           <input type="hidden" name="apoderado" id="idapoderado"/>
+                           <?php if($_SESSION["cargo"] != "4") {?>
+                              <input type="text" id="apoderado" class="form-control requerido " placeholder="Por ejemplo, Ever Lazaro"/>
+                              <input type="hidden" name="apoderado" id="idapoderado"/>
+                           <?php }else{ ?>
+                              <input type="text" id="apoderado" class="form-control" readonly placeholder="Por ejemplo, Ever Lazaro" value="<?php echo $_SESSION["nombres"];?>"/>
+                              <input type="hidden" name="apoderado" id="idapoderado" value="<?php echo $_SESSION["id"];?>"/>                              
+                           <?php }?>
                         </div>
                      </div>
                   </div>

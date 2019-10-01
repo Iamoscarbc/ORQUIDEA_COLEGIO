@@ -27,6 +27,9 @@ WHERE alumno.idapo = $id");
                       <button class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
                     </div>
                  </div>
+         <div class="box-header">
+            <a href="../voucher_pago/voucher_pago_nuevo.php" class="btn btn-primary btn-flat"><i class="fa fa-level-up"></i> Registrar Nuevo Voucher </a>
+         </div>
 			<div class="box-body">
             <table id="example1" class="table table-striped table-bordered table-hover">
                 <thead>

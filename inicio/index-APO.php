@@ -21,12 +21,12 @@ if($_SESSION["cargo"]=='4'){
             <div class="small-box bg-aqua">
                <div class="inner">
                   <h3>&nbsp;</h3>
-                  <p>Alumnos</p>
+                  <p>Alumno</p>
                </div>
                <div class="icon">
                   <i class="fa fa-graduation-cap"></i>
                </div>
-               <a href="../alumno/alumno.php" class="small-box-footer">Ir <i class="fa fa-arrow-circle-right"></i></a>
+               <a href="../apoderado/apoderado_alumno.php" class="small-box-footer">Ir <i class="fa fa-arrow-circle-right"></i></a>
             </div>
          </div>
          <div class="col-lg-3 col-xs-6">
@@ -38,7 +38,7 @@ if($_SESSION["cargo"]=='4'){
                <div class="icon">
                   <i class="fa fa-money"></i>
                </div>
-               <a href="../pago/pago.php" class="small-box-footer">Ir <i class="fa fa-arrow-circle-right"></i></a>
+               <a href="../apoderado/pagos_apoderado.php" class="small-box-footer">Ir <i class="fa fa-arrow-circle-right"></i></a>
             </div>
          </div>
          <div class="col-lg-3 col-xs-6">            
@@ -50,19 +50,19 @@ if($_SESSION["cargo"]=='4'){
                <div class="icon">
                   <i class="fa fa-users"></i>
                </div>
-               <a href="../usuario/usuario.php" class="small-box-footer">Ir <i class="fa fa-arrow-circle-right"></i></a>
+               <a href="../apoderado/usuario.php" class="small-box-footer">Ir <i class="fa fa-arrow-circle-right"></i></a>
             </div>
          </div>
          <div class="col-lg-3 col-xs-6">            
             <div class="small-box bg-red">
                <div class="inner">
                   <h3>&nbsp;</h3>
-                  <p>Reportes</p>
+                  <p>Calificaciones</p>
                </div>
                <div class="icon">
                   <i class="fa fa-line-chart"></i>
                </div>
-               <a href="../reportes/rptrango1pago.php" class="small-box-footer">Ir <i class="fa fa-arrow-circle-right"></i></a>
+               <a href="../apoderado/calificaciones_alumno.php" class="small-box-footer">Ir <i class="fa fa-arrow-circle-right"></i></a>
             </div>
          </div>
       </div>
